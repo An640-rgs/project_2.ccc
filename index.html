@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <section>
+    <div class="login-box">
+        <form action="">
+            <h2>Login</h2>
+            <div class="input-box">
+             <span class="icon">
+             <ion-icon name="mail"></ion-icon>
+             </span>
+             <input type="Email" required>
+                <label>Email</label>
+            </div>
+                
+               <div class="input-box">
+             <span class="icon"></span>
+             <ion-icon name="lock-closed"></ion-icon>
+             </span>
+             <input type="Password" required>
+                <label>Password</label> 
+               </div>
+
+                <div class="remember-forget">
+                    <label><input type="checkbox">Remember me</label>
+                    <a href="#">Forget Password</a>
+                 </div>
+                
+                <button type="submit">Login</button>
+                <div class="register-link">
+                    <p>Don't have an account? <a href="#">Register</a></p>
+                </div>
+         </form>    
+         </div>
+         <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+<script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+</section>
+<section class="carousel">
+    <h2>Image carousel</h2>
+    <div class="carousel-container">
+        <button class="prev">&#10094</button>
+        <div class="slides">
+        <img src="bmw.avif" alt="image1" class="active"/>
+        <img src="car_1.jpeg" alt="image2"/>
+        <img src="car_2.jpeg" alt="image3"/>
+    </div>
+    <button class="next">&#10095</button>
+    </div>
+    </section>
+    <section class="rating">
+        <h2>Rate Us</h2>
+        <div class="stars" id="starContainer">
+            
+            <span class="star" data-value="1">&#9733</span>
+            <span class="star" data-value="2">&#9733</span>
+            <span class="star" data-value="3">&#9733</span>
+            <span class="star" data-value="4">&#9733</span>
+            <span class="star" data-value="5">&#9733</span>
+        </div>
+        <p id="ratingValue">Your Rating:0</p>
+        </section>
+    <script src="script.js"></script>
+</body>
+</html>
